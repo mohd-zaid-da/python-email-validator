@@ -1,61 +1,94 @@
-# Python Email Validator
+# 📧 Python Email Validator
 
-A Python project that validates email addresses using two different approaches:
+A Python project that validates email addresses using multiple approaches, demonstrating progression from basic logic to advanced validation techniques and GUI development.
 
-- Manual string validation (without regex)
-- Regular Expression (Regex) based validation
+---
 
-This project demonstrates fundamental Python logic building and pattern matching using the re module.
+## 🚀 Overview
 
---------------------------------------------------
+This project showcases different methods of email validation:
 
-## Features
+- Manual string-based validation (without regex)
+- Regex-based validation using Python's `re` module
+- GUI-based validation using Tkinter
 
-Manual Validation:
+It highlights problem-solving skills, input validation techniques, and practical Python application development.
+
+---
+
+## ✨ Features
+
+### 🔹 Manual Validation
 - Checks minimum length
-- Ensures only one '@' symbol
+- Ensures exactly one '@' symbol
 - Prevents spaces
 - Validates domain structure
 - Allows only valid characters
-- Verifies top-level domain length
+- Verifies top-level domain (TLD)
 
-Regex Validation:
-- Uses regular expressions for pattern matching
-- Validates username format
-- Validates domain name
-- Ensures valid top-level domain (TLD)
+### 🔹 Regex Validation
+- Uses pattern matching for accurate validation
+- Validates username and domain format
+- Ensures proper TLD structure
 
---------------------------------------------------
+### 🔹 GUI Validation (Tkinter)
+- Simple and clean interface
+- Real-time validation result
+- Visual feedback (Valid/Invalid)
 
-## How to Run
+---
 
-Manual Version:
+## ▶️ How to Run
+
+### Manual Version
 python manual_email_validator.py
 
-Regex Version:
-python email-validator-regex.py
+### Regex Version
+python email_validator_regex.py
 
---------------------------------------------------
+### GUI Version
+python gui_validator.py
 
-## Project Structure
+---
+
+## 📁 Project Structure
 
 python-email-validator/
 │
 ├── manual_email_validator.py
-├── email-validator-regex.py
+├── email_validator_regex.py
+├── gui_validator.py
 └── README.md
 
---------------------------------------------------
+---
 
-## Future Improvements
+## 🛠️ Tech Stack
 
-- Add advanced RFC-compliant email validation
-- Convert script into reusable functions
-- Add unit testing
-- Create a simple CLI version
-- Add GUI version (Tkinter)
+- Python
+- Regex (`re` module)
+- Tkinter (GUI)
 
---------------------------------------------------
+---
 
-Author:
+## 📈 Learning Outcomes
+
+- Understanding input validation techniques
+- Implementing regex for pattern matching
+- Building GUI applications using Tkinter
+- Writing clean and structured Python code
+
+---
+
+## 🔮 Future Improvements
+
+- Database integration (MySQL)
+- Email verification system (OTP-based)
+- Web version using Flask
+- Unit testing implementation
+- UI/UX improvements
+
+---
+
+## 👨‍💻 Author
+
 Mohd Zaid
